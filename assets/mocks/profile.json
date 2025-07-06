@@ -1,0 +1,115 @@
+{
+  "status": "ok",
+  "data": {
+    "message": "Profile Data fetched successfully",
+    "user": {
+      "name": "neha jain",
+      "first_name": "Neha",
+      "last_name": "Jain",
+      "email": "nehajain@gmail.com",
+      "phonecode": "+91",
+      "mobile": "0000000000",
+      "documents_url": [],
+      "roles": [
+        {
+          "id": 1,
+          "name": "vendor",
+          "guard_name": "web",
+          "origin_id": null,
+          "lang": null,
+          "created_at": "2019-12-10T05:04:46.000000Z",
+          "updated_at": "2019-12-10T05:04:46.000000Z",
+          "pivot": {
+            "model_id": 7785,
+            "role_id": 1,
+            "model_type": "App\\Models\\User"
+          }
+        },
+        {
+          "id": 2,
+          "name": "customer",
+          "guard_name": "web",
+          "origin_id": null,
+          "lang": null,
+          "created_at": "2019-12-10T05:04:49.000000Z",
+          "updated_at": "2019-12-10T05:04:49.000000Z",
+          "pivot": {
+            "model_id": 7785,
+            "role_id": 2,
+            "model_type": "App\\Models\\User"
+          }
+        },
+        {
+          "id": 3,
+          "name": "administrator",
+          "guard_name": "web",
+          "origin_id": null,
+          "lang": null,
+          "created_at": "2019-12-10T05:04:49.000000Z",
+          "updated_at": "2019-12-10T05:04:49.000000Z",
+          "pivot": {
+            "model_id": 7785,
+            "role_id": 3,
+            "model_type": "App\\Models\\User"
+          }
+        },
+        {
+          "id": 4,
+          "name": "admin",
+          "guard_name": "web",
+          "origin_id": null,
+          "lang": null,
+          "created_at": "2020-01-07T09:08:32.000000Z",
+          "updated_at": "2020-01-07T09:08:32.000000Z",
+          "pivot": {
+            "model_id": 7785,
+            "role_id": 4,
+            "model_type": "App\\Models\\User"
+          }
+        },
+        {
+          "id": 5,
+          "name": "merchant",
+          "guard_name": "web",
+          "origin_id": null,
+          "lang": null,
+          "created_at": "2020-01-11T07:25:17.000000Z",
+          "updated_at": "2020-01-11T07:25:17.000000Z",
+          "pivot": {
+            "model_id": 7785,
+            "role_id": 5,
+            "model_type": "App\\Models\\User"
+          }
+        },
+        {
+          "id": 6,
+          "name": "product-entry",
+          "guard_name": "web",
+          "origin_id": null,
+          "lang": null,
+          "created_at": "2020-11-22T23:11:30.000000Z",
+          "updated_at": "2020-11-22T23:11:30.000000Z",
+          "pivot": {
+            "model_id": 7785,
+            "role_id": 6,
+            "model_type": "App\\Models\\User"
+          }
+        },
+        {
+          "id": 7,
+          "name": "driver",
+          "guard_name": "web",
+          "origin_id": null,
+          "lang": null,
+          "created_at": "2022-04-19T03:34:05.000000Z",
+          "updated_at": "2022-04-19T03:34:05.000000Z",
+          "pivot": {
+            "model_id": 7785,
+            "role_id": 7,
+            "model_type": "App\\Models\\User"
+          }
+        }
+      ]
+    }
+  }
+}

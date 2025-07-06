@@ -1,0 +1,171 @@
+{
+  "data": {
+    "current_page": 1,
+    "data": [
+      {
+        "id": 7571,
+        "company_name": "Texttttt",
+        "name": "Test Test",
+        "email": "testxum@trosmail.com",
+        "mobile": "9999999999",
+        "address": "Platinum mall, near 4th floor, Saibaba Nagar, Pant Nagar, Ghatkopar East, Mumbai, Maharashtra 400077, India",
+        "phonecode": "91",
+        "latitude": null,
+        "longitude": null,
+        "status": "publish",
+        "documents_url": null
+      },
+      {
+        "id": 7228,
+        "company_name": null,
+        "name": "ttest d ff",
+        "email": "Test2121@gmail.com",
+        "mobile": "9999999999",
+        "address": null,
+        "phonecode": "91",
+        "latitude": null,
+        "longitude": null,
+        "status": "blocked",
+        "documents_url": null
+      },
+      {
+        "id": 6353,
+        "company_name": "Test shop",
+        "name": "test shop ",
+        "email": "adhv@hmail.com",
+        "mobile": "9999999999",
+        "address": "C-315, Kanakia Zillion, BKC Annexe, Near BEST Bus Depot,, L B S Marg, Mumbai 400070, Kapadia Nagar, Kurla, Mumbai, Maharashtra 400070, India",
+        "phonecode": "91",
+        "latitude": "19.075617",
+        "longitude": "72.876295",
+        "status": "publish",
+        "documents_url": null
+      },
+      {
+        "id": 6302,
+        "company_name": "Test-18101",
+        "name": "Test-18101 tros",
+        "email": "test18101nrl@trosmail.com",
+        "mobile": "9999999999",
+        "address": "15, Rd Number 1, Kannamwar Nagar II, Vikhroli, Mumbai, Maharashtra 400083, India",
+        "phonecode": "91",
+        "latitude": null,
+        "longitude": null,
+        "status": "publish",
+        "documents_url": null
+      },
+      {
+        "id": 6192,
+        "company_name": "Test new",
+        "name": "shakir test ",
+        "email": "shakir2k@hotmail.co",
+        "mobile": "1111155554",
+        "address": "4W7P+M86, Kannamwar Nagar II, Vikhroli, Mumbai, Maharashtra 400083, India",
+        "phonecode": "91",
+        "latitude": "19.114160",
+        "longitude": "72.935750",
+        "status": "publish",
+        "documents_url": null
+      },
+      {
+        "id": 6119,
+        "company_name": "Abc-1391",
+        "name": "test-hek ",
+        "email": "test1391@gmail.con",
+        "mobile": "9999999999",
+        "address": "A/6, Dadu Kondiram Sawant Path, Rb2 Railway Quarter Area Tadiwala Road, Tadiwala Road, Pune, Maharashtra 411001, India",
+        "phonecode": "91",
+        "latitude": "18.536184",
+        "longitude": "73.871269",
+        "status": "publish",
+        "documents_url": null
+      },
+      {
+        "id": 6118,
+        "company_name": "Testing Location Feature",
+        "name": "location testing ",
+        "email": "test@location.co",
+        "mobile": "9999999999",
+        "address": "Dhayari, Shobhapur, Kasba Peth, Pune, Maharashtra 411011, India",
+        "phonecode": "91",
+        "latitude": "18.520430",
+        "longitude": "73.856744",
+        "status": "publish",
+        "documents_url": null
+      },
+      {
+        "id": 6104,
+        "company_name": "Test-1194",
+        "name": "test-1194 ",
+        "email": "test-1194@gmail.com",
+        "mobile": "9999999999",
+        "address": "WING-O, Air India Rd, Kolivery Village, Indian Airlines Staff Colony 2, Santacruz East, Mumbai, Maharashtra 400029, India",
+        "phonecode": "91",
+        "latitude": "19.080304",
+        "longitude": "72.872653",
+        "status": "publish",
+        "documents_url": null
+      },
+      {
+        "id": 6103,
+        "company_name": "Test-1193",
+        "name": "test-1193 ",
+        "email": "test-1193@tros.com",
+        "mobile": "9999999999",
+        "address": "37, Kolivery Village, Air India Staff Colony 1, Santacruz East, Mumbai, Maharashtra 400029, India",
+        "phonecode": "91",
+        "latitude": "19.080727",
+        "longitude": "72.867525",
+        "status": "publish",
+        "documents_url": null
+      },
+      {
+        "id": 6098,
+        "company_name": "Test",
+        "name": "Test Hek",
+        "email": "test@gek.com",
+        "mobile": "8456897845",
+        "address": "16, Kannamwar Nagar 2 Vikhroli East, Kanjurmarg East, Mumbai, Maharashtra 400042, India",
+        "phonecode": "91",
+        "latitude": null,
+        "longitude": null,
+        "status": "publish",
+        "documents_url": null
+      }
+    ],
+    "from": 1,
+    "last_page": 4,
+    "last_page_url": "https://admin.trosnow.com/api/product-entry/merchants?page=4",
+    "links": [
+      {
+        "url": null,
+        "label": "&laquo; Previous",
+        "active": false
+      },
+      {
+        "label": "1",
+        "active": true
+      },
+      {
+        "label": "2",
+        "active": false
+      },
+      {
+        "label": "3",
+        "active": false
+      },
+      {
+        "label": "4",
+        "active": false
+      },
+      {
+        "label": "Next &raquo;",
+        "active": false
+      }
+    ],
+    "per_page": 10,
+    "prev_page_url": null,
+    "to": 10,
+    "total": 36
+  }
+}
