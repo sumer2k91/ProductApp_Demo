@@ -146,7 +146,7 @@
                     }
                 },
                 {
-                    "source": "/Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/android/app/src/main/res/values/styles.xml",
+                    "source": "/Users/sumer/Desktop/GitProjects/ProductApp_Demo/android/app/src/main/res/values/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

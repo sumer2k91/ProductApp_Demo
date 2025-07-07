@@ -1,11 +1,11 @@
 -- Merging decision tree log ---
 application
-INJECTED from /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/android/app/src/main/AndroidManifest.xml:10:5-52:19
-INJECTED from /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/android/app/src/debug/AndroidManifest.xml
-MERGED from [:image_picker_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:5-32:19
-MERGED from [:image_picker_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:5-32:19
-MERGED from [:url_launcher_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/url_launcher_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-12:19
-MERGED from [:url_launcher_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/url_launcher_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-12:19
+INJECTED from /Users/sumer/Desktop/GitProjects/ProductApp_Demo/android/app/src/main/AndroidManifest.xml:10:5-52:19
+INJECTED from /Users/sumer/Desktop/GitProjects/ProductApp_Demo/android/app/src/debug/AndroidManifest.xml
+MERGED from [:image_picker_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:5-32:19
+MERGED from [:image_picker_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:5-32:19
+MERGED from [:url_launcher_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/url_launcher_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-12:19
+MERGED from [:url_launcher_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/url_launcher_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-12:19
 MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/sumer/.gradle/caches/8.10.2/transforms/223e4c2782dceb65140338abe6972c59/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:36:5-42:19
 MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/sumer/.gradle/caches/8.10.2/transforms/223e4c2782dceb65140338abe6972c59/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:36:5-42:19
 MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/sumer/.gradle/caches/8.10.2/transforms/d4003e89e11d20e7aac223715520d9d9/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
@@ -29,29 +29,29 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/sume
 MERGED from [com.google.maps.android:android-maps-utils:3.6.0] /Users/sumer/.gradle/caches/8.10.2/transforms/8a63b21759398e83092b56262a073cdf/transformed/jetified-android-maps-utils-3.6.0/AndroidManifest.xml:7:5-11:19
 MERGED from [com.google.maps.android:android-maps-utils:3.6.0] /Users/sumer/.gradle/caches/8.10.2/transforms/8a63b21759398e83092b56262a073cdf/transformed/jetified-android-maps-utils-3.6.0/AndroidManifest.xml:7:5-11:19
 	android:extractNativeLibs
-		INJECTED from /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/sumer/Desktop/GitProjects/ProductApp_Demo/android/app/src/debug/AndroidManifest.xml
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.13.1] /Users/sumer/.gradle/caches/8.10.2/transforms/8cf478dec41eed746328fa8046755ba2/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
 	android:name
-		INJECTED from /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/sumer/Desktop/GitProjects/ProductApp_Demo/android/app/src/main/AndroidManifest.xml
 provider#androidx.core.content.FileProvider
-INJECTED from /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/android/app/src/main/AndroidManifest.xml:21:9-29:20
+INJECTED from /Users/sumer/Desktop/GitProjects/ProductApp_Demo/android/app/src/main/AndroidManifest.xml:21:9-29:20
 	android:authorities
-		INJECTED from /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/sumer/Desktop/GitProjects/ProductApp_Demo/android/app/src/main/AndroidManifest.xml
 manifest
-ADDED from /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/android/app/src/main/AndroidManifest.xml:1:1-62:12
-MERGED from /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/android/app/src/main/AndroidManifest.xml:1:1-62:12
-INJECTED from /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/android/app/src/debug/AndroidManifest.xml:1:1-7:12
-INJECTED from /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/android/app/src/debug/AndroidManifest.xml:1:1-7:12
-INJECTED from /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/android/app/src/debug/AndroidManifest.xml:1:1-7:12
-MERGED from [:google_maps_flutter_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/google_maps_flutter_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
-MERGED from [:image_picker_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-34:12
-MERGED from [:flutter_plugin_android_lifecycle] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
-MERGED from [:flutter_secure_storage] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/flutter_secure_storage/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-10:12
-MERGED from [:geocoding_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/geocoding_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
-MERGED from [:path_provider_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/path_provider_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
-MERGED from [:permission_handler_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/permission_handler_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
-MERGED from [:url_launcher_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/url_launcher_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-14:12
+ADDED from /Users/sumer/Desktop/GitProjects/ProductApp_Demo/android/app/src/main/AndroidManifest.xml:1:1-62:12
+MERGED from /Users/sumer/Desktop/GitProjects/ProductApp_Demo/android/app/src/main/AndroidManifest.xml:1:1-62:12
+INJECTED from /Users/sumer/Desktop/GitProjects/ProductApp_Demo/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/sumer/Desktop/GitProjects/ProductApp_Demo/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/sumer/Desktop/GitProjects/ProductApp_Demo/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+MERGED from [:google_maps_flutter_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/google_maps_flutter_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:image_picker_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-34:12
+MERGED from [:flutter_plugin_android_lifecycle] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_secure_storage] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/flutter_secure_storage/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-10:12
+MERGED from [:geocoding_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/geocoding_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:path_provider_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/path_provider_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:permission_handler_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/permission_handler_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:url_launcher_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/url_launcher_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-14:12
 MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/sumer/.gradle/caches/8.10.2/transforms/223e4c2782dceb65140338abe6972c59/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:17:1-44:12
 MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/sumer/.gradle/caches/8.10.2/transforms/d4003e89e11d20e7aac223715520d9d9/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
 MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/sumer/.gradle/caches/8.10.2/transforms/6795c0036a0dd372adba273d6c748a44/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:2:1-6:12
@@ -87,76 +87,76 @@ MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/sumer/.gr
 MERGED from [com.google.maps.android:android-maps-utils:3.6.0] /Users/sumer/.gradle/caches/8.10.2/transforms/8a63b21759398e83092b56262a073cdf/transformed/jetified-android-maps-utils-3.6.0/AndroidManifest.xml:2:1-13:12
 MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] /Users/sumer/.gradle/caches/8.10.2/transforms/9e1412f82216e9a99f9f845f4567c1f2/transformed/jetified-relinker-1.4.5/AndroidManifest.xml:2:1-7:12
 	package
-		ADDED from /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/android/app/src/main/AndroidManifest.xml:2:5-51
-		INJECTED from /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/android/app/src/debug/AndroidManifest.xml
+		ADDED from /Users/sumer/Desktop/GitProjects/ProductApp_Demo/android/app/src/main/AndroidManifest.xml:2:5-51
+		INJECTED from /Users/sumer/Desktop/GitProjects/ProductApp_Demo/android/app/src/debug/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/sumer/Desktop/GitProjects/ProductApp_Demo/android/app/src/debug/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/sumer/Desktop/GitProjects/ProductApp_Demo/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/android/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /Users/sumer/Desktop/GitProjects/ProductApp_Demo/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.CAMERA
-ADDED from /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/android/app/src/main/AndroidManifest.xml:4:5-65
+ADDED from /Users/sumer/Desktop/GitProjects/ProductApp_Demo/android/app/src/main/AndroidManifest.xml:4:5-65
 	android:name
-		ADDED from /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/android/app/src/main/AndroidManifest.xml:4:22-62
+		ADDED from /Users/sumer/Desktop/GitProjects/ProductApp_Demo/android/app/src/main/AndroidManifest.xml:4:22-62
 uses-permission#android.permission.READ_MEDIA_IMAGES
-ADDED from /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/android/app/src/main/AndroidManifest.xml:5:5-76
+ADDED from /Users/sumer/Desktop/GitProjects/ProductApp_Demo/android/app/src/main/AndroidManifest.xml:5:5-76
 	android:name
-		ADDED from /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/android/app/src/main/AndroidManifest.xml:5:22-73
+		ADDED from /Users/sumer/Desktop/GitProjects/ProductApp_Demo/android/app/src/main/AndroidManifest.xml:5:22-73
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/android/app/src/main/AndroidManifest.xml:6:5-79
+ADDED from /Users/sumer/Desktop/GitProjects/ProductApp_Demo/android/app/src/main/AndroidManifest.xml:6:5-79
 	android:name
-		ADDED from /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/android/app/src/main/AndroidManifest.xml:6:22-77
+		ADDED from /Users/sumer/Desktop/GitProjects/ProductApp_Demo/android/app/src/main/AndroidManifest.xml:6:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/android/app/src/main/AndroidManifest.xml:7:5-107
+ADDED from /Users/sumer/Desktop/GitProjects/ProductApp_Demo/android/app/src/main/AndroidManifest.xml:7:5-107
 	android:maxSdkVersion
-		ADDED from /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/android/app/src/main/AndroidManifest.xml:7:79-105
+		ADDED from /Users/sumer/Desktop/GitProjects/ProductApp_Demo/android/app/src/main/AndroidManifest.xml:7:79-105
 	android:name
-		ADDED from /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/android/app/src/main/AndroidManifest.xml:7:22-78
+		ADDED from /Users/sumer/Desktop/GitProjects/ProductApp_Demo/android/app/src/main/AndroidManifest.xml:7:22-78
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/android/app/src/main/AndroidManifest.xml:8:5-78
+ADDED from /Users/sumer/Desktop/GitProjects/ProductApp_Demo/android/app/src/main/AndroidManifest.xml:8:5-78
 	android:name
-		ADDED from /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/android/app/src/main/AndroidManifest.xml:8:22-76
+		ADDED from /Users/sumer/Desktop/GitProjects/ProductApp_Demo/android/app/src/main/AndroidManifest.xml:8:22-76
 queries
-ADDED from /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/android/app/src/main/AndroidManifest.xml:55:5-60:15
+ADDED from /Users/sumer/Desktop/GitProjects/ProductApp_Demo/android/app/src/main/AndroidManifest.xml:55:5-60:15
 MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/sumer/.gradle/caches/8.10.2/transforms/223e4c2782dceb65140338abe6972c59/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:30:5-34:15
 MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/sumer/.gradle/caches/8.10.2/transforms/223e4c2782dceb65140338abe6972c59/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:30:5-34:15
 intent#action:name:android.intent.action.PROCESS_TEXT+data:mimeType:text/plain
-ADDED from /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/android/app/src/main/AndroidManifest.xml:56:9-59:18
+ADDED from /Users/sumer/Desktop/GitProjects/ProductApp_Demo/android/app/src/main/AndroidManifest.xml:56:9-59:18
 action#android.intent.action.PROCESS_TEXT
-ADDED from /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/android/app/src/main/AndroidManifest.xml:57:13-72
+ADDED from /Users/sumer/Desktop/GitProjects/ProductApp_Demo/android/app/src/main/AndroidManifest.xml:57:13-72
 	android:name
-		ADDED from /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/android/app/src/main/AndroidManifest.xml:57:21-70
+		ADDED from /Users/sumer/Desktop/GitProjects/ProductApp_Demo/android/app/src/main/AndroidManifest.xml:57:21-70
 data
-ADDED from /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/android/app/src/main/AndroidManifest.xml:58:13-50
+ADDED from /Users/sumer/Desktop/GitProjects/ProductApp_Demo/android/app/src/main/AndroidManifest.xml:58:13-50
 	android:mimeType
-		ADDED from /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/android/app/src/main/AndroidManifest.xml:58:19-48
+		ADDED from /Users/sumer/Desktop/GitProjects/ProductApp_Demo/android/app/src/main/AndroidManifest.xml:58:19-48
 uses-permission#android.permission.INTERNET
-ADDED from /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/android/app/src/debug/AndroidManifest.xml:6:5-66
+ADDED from /Users/sumer/Desktop/GitProjects/ProductApp_Demo/android/app/src/debug/AndroidManifest.xml:6:5-66
 MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/sumer/.gradle/caches/8.10.2/transforms/223e4c2782dceb65140338abe6972c59/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/sumer/.gradle/caches/8.10.2/transforms/223e4c2782dceb65140338abe6972c59/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:24:5-67
 	android:name
-		ADDED from /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/android/app/src/debug/AndroidManifest.xml:6:22-64
+		ADDED from /Users/sumer/Desktop/GitProjects/ProductApp_Demo/android/app/src/debug/AndroidManifest.xml:6:22-64
 uses-sdk
-INJECTED from /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/android/app/src/debug/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/android/app/src/debug/AndroidManifest.xml
-INJECTED from /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/android/app/src/debug/AndroidManifest.xml
-MERGED from [:google_maps_flutter_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/google_maps_flutter_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
-MERGED from [:google_maps_flutter_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/google_maps_flutter_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
-MERGED from [:image_picker_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:6:5-44
-MERGED from [:image_picker_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:6:5-44
-MERGED from [:flutter_plugin_android_lifecycle] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
-MERGED from [:flutter_plugin_android_lifecycle] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
-MERGED from [:flutter_secure_storage] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/flutter_secure_storage/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:6:5-8:53
-MERGED from [:flutter_secure_storage] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/flutter_secure_storage/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:6:5-8:53
-MERGED from [:geocoding_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/geocoding_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
-MERGED from [:geocoding_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/geocoding_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
-MERGED from [:path_provider_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/path_provider_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
-MERGED from [:path_provider_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/path_provider_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
-MERGED from [:permission_handler_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/permission_handler_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
-MERGED from [:permission_handler_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/permission_handler_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
-MERGED from [:url_launcher_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/url_launcher_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
-MERGED from [:url_launcher_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/url_launcher_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+INJECTED from /Users/sumer/Desktop/GitProjects/ProductApp_Demo/android/app/src/debug/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/sumer/Desktop/GitProjects/ProductApp_Demo/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/sumer/Desktop/GitProjects/ProductApp_Demo/android/app/src/debug/AndroidManifest.xml
+MERGED from [:google_maps_flutter_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/google_maps_flutter_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:google_maps_flutter_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/google_maps_flutter_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:image_picker_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:6:5-44
+MERGED from [:image_picker_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:6:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_secure_storage] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/flutter_secure_storage/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:6:5-8:53
+MERGED from [:flutter_secure_storage] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/flutter_secure_storage/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:6:5-8:53
+MERGED from [:geocoding_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/geocoding_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:geocoding_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/geocoding_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/path_provider_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/path_provider_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:permission_handler_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/permission_handler_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:permission_handler_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/permission_handler_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/url_launcher_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/url_launcher_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/sumer/.gradle/caches/8.10.2/transforms/223e4c2782dceb65140338abe6972c59/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/sumer/.gradle/caches/8.10.2/transforms/223e4c2782dceb65140338abe6972c59/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/sumer/.gradle/caches/8.10.2/transforms/d4003e89e11d20e7aac223715520d9d9/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
@@ -226,57 +226,57 @@ MERGED from [com.google.maps.android:android-maps-utils:3.6.0] /Users/sumer/.gra
 MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] /Users/sumer/.gradle/caches/8.10.2/transforms/9e1412f82216e9a99f9f845f4567c1f2/transformed/jetified-relinker-1.4.5/AndroidManifest.xml:5:5-43
 MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] /Users/sumer/.gradle/caches/8.10.2/transforms/9e1412f82216e9a99f9f845f4567c1f2/transformed/jetified-relinker-1.4.5/AndroidManifest.xml:5:5-43
 	tools:overrideLibrary
-		ADDED from [:flutter_secure_storage] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/flutter_secure_storage/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:9-50
+		ADDED from [:flutter_secure_storage] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/flutter_secure_storage/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:9-50
 	android:targetSdkVersion
-		INJECTED from /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/sumer/Desktop/GitProjects/ProductApp_Demo/android/app/src/debug/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/sumer/Desktop/GitProjects/ProductApp_Demo/android/app/src/debug/AndroidManifest.xml
 provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
-ADDED from [:image_picker_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:9-17:20
+ADDED from [:image_picker_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:9-17:20
 	android:grantUriPermissions
-		ADDED from [:image_picker_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:13:13-47
+		ADDED from [:image_picker_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:13:13-47
 	android:authorities
-		ADDED from [:image_picker_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:13-74
+		ADDED from [:image_picker_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:13-74
 	android:exported
-		ADDED from [:image_picker_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:12:13-37
+		ADDED from [:image_picker_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:12:13-37
 	android:name
-		ADDED from [:image_picker_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:13-82
+		ADDED from [:image_picker_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:13-82
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from [:image_picker_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:14:13-16:75
+ADDED from [:image_picker_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:14:13-16:75
 	android:resource
-		ADDED from [:image_picker_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:16:17-72
+		ADDED from [:image_picker_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:16:17-72
 	android:name
-		ADDED from [:image_picker_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:15:17-67
+		ADDED from [:image_picker_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:15:17-67
 service#com.google.android.gms.metadata.ModuleDependencies
-ADDED from [:image_picker_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:19:9-31:19
+ADDED from [:image_picker_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:19:9-31:19
 	android:enabled
-		ADDED from [:image_picker_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:21:13-36
+		ADDED from [:image_picker_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:21:13-36
 	android:exported
-		ADDED from [:image_picker_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:22:13-37
+		ADDED from [:image_picker_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:22:13-37
 	tools:ignore
-		ADDED from [:image_picker_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:23:13-40
+		ADDED from [:image_picker_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:23:13-40
 	android:name
-		ADDED from [:image_picker_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:20:13-78
+		ADDED from [:image_picker_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:20:13-78
 intent-filter#action:name:com.google.android.gms.metadata.MODULE_DEPENDENCIES
-ADDED from [:image_picker_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:24:13-26:29
+ADDED from [:image_picker_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:24:13-26:29
 action#com.google.android.gms.metadata.MODULE_DEPENDENCIES
-ADDED from [:image_picker_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:25:17-94
+ADDED from [:image_picker_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:25:17-94
 	android:name
-		ADDED from [:image_picker_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:25:25-91
+		ADDED from [:image_picker_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:25:25-91
 meta-data#photopicker_activity:0:required
-ADDED from [:image_picker_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:28:13-30:36
+ADDED from [:image_picker_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:28:13-30:36
 	android:value
-		ADDED from [:image_picker_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:30:17-33
+		ADDED from [:image_picker_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:30:17-33
 	android:name
-		ADDED from [:image_picker_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:29:17-63
+		ADDED from [:image_picker_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:29:17-63
 activity#io.flutter.plugins.urllauncher.WebViewActivity
-ADDED from [:url_launcher_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/url_launcher_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:9-11:74
+ADDED from [:url_launcher_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/url_launcher_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:9-11:74
 	android:exported
-		ADDED from [:url_launcher_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/url_launcher_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:13-37
+		ADDED from [:url_launcher_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/url_launcher_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:13-37
 	android:theme
-		ADDED from [:url_launcher_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/url_launcher_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:13-71
+		ADDED from [:url_launcher_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/url_launcher_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:13-71
 	android:name
-		ADDED from [:url_launcher_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/url_launcher_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:13-74
+		ADDED from [:url_launcher_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/url_launcher_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:13-74
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/sumer/.gradle/caches/8.10.2/transforms/223e4c2782dceb65140338abe6972c59/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:23:5-79
 	android:name

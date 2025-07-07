@@ -13,39 +13,39 @@
 13         to allow setting breakpoints, to provide hot reload, etc.
 14    -->
 15    <uses-permission android:name="android.permission.INTERNET" />
-15-->/Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/android/app/src/debug/AndroidManifest.xml:6:5-66
-15-->/Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/android/app/src/debug/AndroidManifest.xml:6:22-64
+15-->/Users/sumer/Desktop/GitProjects/ProductApp_Demo/android/app/src/debug/AndroidManifest.xml:6:5-66
+15-->/Users/sumer/Desktop/GitProjects/ProductApp_Demo/android/app/src/debug/AndroidManifest.xml:6:22-64
 16    <!-- Replace with your actual package name -->
 17    <!-- ✅ Required Permissions -->
 18    <uses-permission android:name="android.permission.CAMERA" />
-18-->/Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/android/app/src/main/AndroidManifest.xml:4:5-65
-18-->/Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/android/app/src/main/AndroidManifest.xml:4:22-62
+18-->/Users/sumer/Desktop/GitProjects/ProductApp_Demo/android/app/src/main/AndroidManifest.xml:4:5-65
+18-->/Users/sumer/Desktop/GitProjects/ProductApp_Demo/android/app/src/main/AndroidManifest.xml:4:22-62
 19    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
-19-->/Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/android/app/src/main/AndroidManifest.xml:5:5-76
-19-->/Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/android/app/src/main/AndroidManifest.xml:5:22-73
+19-->/Users/sumer/Desktop/GitProjects/ProductApp_Demo/android/app/src/main/AndroidManifest.xml:5:5-76
+19-->/Users/sumer/Desktop/GitProjects/ProductApp_Demo/android/app/src/main/AndroidManifest.xml:5:22-73
 20    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-20-->/Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/android/app/src/main/AndroidManifest.xml:6:5-79
-20-->/Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/android/app/src/main/AndroidManifest.xml:6:22-77
+20-->/Users/sumer/Desktop/GitProjects/ProductApp_Demo/android/app/src/main/AndroidManifest.xml:6:5-79
+20-->/Users/sumer/Desktop/GitProjects/ProductApp_Demo/android/app/src/main/AndroidManifest.xml:6:22-77
 21    <uses-permission
-21-->/Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/android/app/src/main/AndroidManifest.xml:7:5-107
+21-->/Users/sumer/Desktop/GitProjects/ProductApp_Demo/android/app/src/main/AndroidManifest.xml:7:5-107
 22        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
-22-->/Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/android/app/src/main/AndroidManifest.xml:7:22-78
+22-->/Users/sumer/Desktop/GitProjects/ProductApp_Demo/android/app/src/main/AndroidManifest.xml:7:22-78
 23        android:maxSdkVersion="28" />
-23-->/Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/android/app/src/main/AndroidManifest.xml:7:79-105
+23-->/Users/sumer/Desktop/GitProjects/ProductApp_Demo/android/app/src/main/AndroidManifest.xml:7:79-105
 24    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- Flutter Engine Text Plugin -->
-24-->/Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/android/app/src/main/AndroidManifest.xml:8:5-78
-24-->/Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/android/app/src/main/AndroidManifest.xml:8:22-76
+24-->/Users/sumer/Desktop/GitProjects/ProductApp_Demo/android/app/src/main/AndroidManifest.xml:8:5-78
+24-->/Users/sumer/Desktop/GitProjects/ProductApp_Demo/android/app/src/main/AndroidManifest.xml:8:22-76
 25    <queries>
-25-->/Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/android/app/src/main/AndroidManifest.xml:55:5-60:15
+25-->/Users/sumer/Desktop/GitProjects/ProductApp_Demo/android/app/src/main/AndroidManifest.xml:55:5-60:15
 26        <intent>
-26-->/Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/android/app/src/main/AndroidManifest.xml:56:9-59:18
+26-->/Users/sumer/Desktop/GitProjects/ProductApp_Demo/android/app/src/main/AndroidManifest.xml:56:9-59:18
 27            <action android:name="android.intent.action.PROCESS_TEXT" />
-27-->/Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/android/app/src/main/AndroidManifest.xml:57:13-72
-27-->/Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/android/app/src/main/AndroidManifest.xml:57:21-70
+27-->/Users/sumer/Desktop/GitProjects/ProductApp_Demo/android/app/src/main/AndroidManifest.xml:57:13-72
+27-->/Users/sumer/Desktop/GitProjects/ProductApp_Demo/android/app/src/main/AndroidManifest.xml:57:21-70
 28
 29            <data android:mimeType="text/plain" />
-29-->/Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/android/app/src/main/AndroidManifest.xml:58:13-50
-29-->/Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/android/app/src/main/AndroidManifest.xml:58:19-48
+29-->/Users/sumer/Desktop/GitProjects/ProductApp_Demo/android/app/src/main/AndroidManifest.xml:58:13-50
+29-->/Users/sumer/Desktop/GitProjects/ProductApp_Demo/android/app/src/main/AndroidManifest.xml:58:19-48
 30        </intent>
 31        <!-- Needs to be explicitly declared on Android R+ -->
 32        <package android:name="com.google.android.apps.maps" />
@@ -93,11 +93,11 @@
 61            android:exported="false"
 62            android:grantUriPermissions="true" >
 63            <meta-data
-63-->[:image_picker_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:14:13-16:75
+63-->[:image_picker_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:14:13-16:75
 64                android:name="android.support.FILE_PROVIDER_PATHS"
-64-->[:image_picker_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:15:17-67
+64-->[:image_picker_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:15:17-67
 65                android:resource="@xml/file_paths" />
-65-->[:image_picker_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:16:17-72
+65-->[:image_picker_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:16:17-72
 66        </provider>
 67
 68        <activity
@@ -125,53 +125,53 @@
 90            android:value="2" />
 91
 92        <provider
-92-->[:image_picker_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:9-17:20
+92-->[:image_picker_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:9-17:20
 93            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
-93-->[:image_picker_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:13-82
+93-->[:image_picker_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:13-82
 94            android:authorities="com.example.tros_product_application.flutter.image_provider"
-94-->[:image_picker_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:13-74
+94-->[:image_picker_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:13-74
 95            android:exported="false"
-95-->[:image_picker_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:12:13-37
+95-->[:image_picker_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:12:13-37
 96            android:grantUriPermissions="true" >
-96-->[:image_picker_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:13:13-47
+96-->[:image_picker_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:13:13-47
 97            <meta-data
-97-->[:image_picker_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:14:13-16:75
+97-->[:image_picker_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:14:13-16:75
 98                android:name="android.support.FILE_PROVIDER_PATHS"
-98-->[:image_picker_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:15:17-67
+98-->[:image_picker_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:15:17-67
 99                android:resource="@xml/flutter_image_picker_file_paths" />
-99-->[:image_picker_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:16:17-72
+99-->[:image_picker_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:16:17-72
 100        </provider> <!-- Trigger Google Play services to install the backported photo picker module. -->
 101        <service
-101-->[:image_picker_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:19:9-31:19
+101-->[:image_picker_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:19:9-31:19
 102            android:name="com.google.android.gms.metadata.ModuleDependencies"
-102-->[:image_picker_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:20:13-78
+102-->[:image_picker_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:20:13-78
 103            android:enabled="false"
-103-->[:image_picker_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:21:13-36
+103-->[:image_picker_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:21:13-36
 104            android:exported="false" >
-104-->[:image_picker_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:22:13-37
+104-->[:image_picker_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:22:13-37
 105            <intent-filter>
-105-->[:image_picker_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:24:13-26:29
+105-->[:image_picker_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:24:13-26:29
 106                <action android:name="com.google.android.gms.metadata.MODULE_DEPENDENCIES" />
-106-->[:image_picker_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:25:17-94
-106-->[:image_picker_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:25:25-91
+106-->[:image_picker_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:25:17-94
+106-->[:image_picker_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:25:25-91
 107            </intent-filter>
 108
 109            <meta-data
-109-->[:image_picker_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:28:13-30:36
+109-->[:image_picker_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:28:13-30:36
 110                android:name="photopicker_activity:0:required"
-110-->[:image_picker_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:29:17-63
+110-->[:image_picker_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:29:17-63
 111                android:value="" />
-111-->[:image_picker_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:30:17-33
+111-->[:image_picker_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:30:17-33
 112        </service>
 113
 114        <activity
-114-->[:url_launcher_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/url_launcher_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:9-11:74
+114-->[:url_launcher_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/url_launcher_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:9-11:74
 115            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
-115-->[:url_launcher_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/url_launcher_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:13-74
+115-->[:url_launcher_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/url_launcher_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:13-74
 116            android:exported="false"
-116-->[:url_launcher_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/url_launcher_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:13-37
+116-->[:url_launcher_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/url_launcher_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:13-37
 117            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" /> <!-- Needs to be explicitly declared on P+ -->
-117-->[:url_launcher_android] /Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/build/url_launcher_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:13-71
+117-->[:url_launcher_android] /Users/sumer/Desktop/GitProjects/ProductApp_Demo/build/url_launcher_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:13-71
 118        <uses-library
 118-->[com.google.android.gms:play-services-maps:18.2.0] /Users/sumer/.gradle/caches/8.10.2/transforms/223e4c2782dceb65140338abe6972c59/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:39:9-41:40
 119            android:name="org.apache.http.legacy"

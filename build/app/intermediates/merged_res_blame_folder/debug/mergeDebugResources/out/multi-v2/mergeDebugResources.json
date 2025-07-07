@@ -520,7 +520,7 @@
             "outputFile": "com.example.tros_product_application.app-debug-32:/values-night-v8_values-night-v8.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/android/app/src/main/res/values-night/styles.xml",
+                    "source": "/Users/sumer/Desktop/GitProjects/ProductApp_Demo/android/app/src/main/res/values-night/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
@@ -6002,7 +6002,7 @@
                     }
                 },
                 {
-                    "source": "/Users/sumer/Desktop/MyGitHubProjects/ProductDemoApp/android/app/src/main/res/values/styles.xml",
+                    "source": "/Users/sumer/Desktop/GitProjects/ProductApp_Demo/android/app/src/main/res/values/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

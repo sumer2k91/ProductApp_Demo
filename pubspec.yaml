@@ -73,6 +73,7 @@ flutter:
     - assets/mocks/profile.json
     - assets/mocks/products.json
     - assets/mocks/merchant_list.json
+    - assets/appLogo/apple_logo.png
     - assets/appLogo/mock_logo.png
     - assets/appLogo/trosLogo512.png
     - assets/appLogo/AppLogo_512.png
