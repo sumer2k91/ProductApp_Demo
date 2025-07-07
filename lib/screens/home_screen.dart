@@ -25,8 +25,6 @@ class _HomeScreenState extends State<HomeScreen> {
   String? _searchQuery;
   Timer? _debounce;
 
-
-
   @override
   void initState() {
     super.initState();
@@ -81,17 +79,13 @@ class _HomeScreenState extends State<HomeScreen> {
         _currentPage++;
         _isLoading = false;
       });
-
-      print("🛒 Loaded ${_products.length} products. Source: ${useMock ? 'Mock' : 'API'}");
     } catch (e) {
       setState(() {
         _isLoading = false;
         _hasError = true;
       });
-      print("❌ Error fetching products: $e");
     }
   }
-
 
   void _onScroll() {
     if (_scrollController.position.pixels >= _scrollController.position.maxScrollExtent * 0.9) {
@@ -103,7 +97,6 @@ class _HomeScreenState extends State<HomeScreen> {
     if (_debounce?.isActive ?? false) _debounce!.cancel();
     _debounce = Timer(const Duration(milliseconds: 500), () {
       final query = _searchController.text.trim();
-      print("🔍 Search query changed: $query");
       if (query != _searchQuery) {
         setState(() {
           _searchQuery = query.isEmpty ? null : query;
@@ -148,93 +141,110 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final screenWidth = MediaQuery.of(context).size.width;
+    final isSmallDevice = screenWidth < 400;
+
     return Scaffold(
-      backgroundColor: AppColors.lightGreyColor,
+      extendBodyBehindAppBar: true,
       appBar: CustomAppBar(
         title: 'Products',
         borderRadius: 20.0,
         actions: [
           IconButton(
-            icon: Icon(Icons.add, size: 30, color: AppColors.whiteColor),
+            icon: Icon(Icons.add, size: isSmallDevice ? 26 : 32, color: Colors.white),
             onPressed: _navigateToAddProduct,
             tooltip: 'Add Product',
           ),
         ],
       ),
-      body: Column(
-        children: [
-          // Modern Search Bar
-          Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
-            child: Container(
-              decoration: BoxDecoration(
-                color: Colors.white,
-                borderRadius: BorderRadius.circular(12.0),
-                boxShadow: [
-                  BoxShadow(
-                    color: Colors.grey.withOpacity(0.2),
-                    spreadRadius: 2,
-                    blurRadius: 5,
-                    offset: const Offset(0, 2),
-                  ),
-                ],
-              ),
-              child: TextField(
-                controller: _searchController,
-                decoration: InputDecoration(
-                  hintText: 'Search products...',
-                  prefixIcon: const Icon(Icons.search, color: Colors.grey),
-                  suffixIcon: _searchController.text.isNotEmpty
-                      ? IconButton(
-                    icon: const Icon(Icons.clear, color: Colors.grey),
-                    onPressed: () {
-                      _searchController.clear();
-                      setState(() {
-                        _searchQuery = null;
-                      });
-                      _fetchProducts(reset: true);
-                    },
-                  )
-                      : null,
-                  border: OutlineInputBorder(
+      body: Container(
+        width: double.infinity,
+        height: double.infinity,
+        decoration: const BoxDecoration(
+          gradient: LinearGradient(
+            begin: Alignment.topCenter,
+            end: Alignment.bottomCenter,
+            colors: [Color(0xFFFFFFFF), Color(0xFFFAD1A7)],
+          ),
+        ),
+        child: SafeArea(
+          child: Column(
+            children: [
+              // Responsive Search Bar
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 10.0),
+                child: Container(
+                  decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(12.0),
-                    borderSide: BorderSide.none,
+                    boxShadow: [
+                      BoxShadow(
+                        color: Colors.grey.withOpacity(0.2),
+                        spreadRadius: 2,
+                        blurRadius: 5,
+                        offset: const Offset(0, 2),
+                      ),
+                    ],
                   ),
-                  filled: true,
-                  fillColor: Colors.white,
-                  contentPadding: const EdgeInsets.symmetric(vertical: 0.0, horizontal: 16.0),
+                  child: TextField(
+                    controller: _searchController,
+                    style: TextStyle(fontSize: isSmallDevice ? 14 : 16),
+                    decoration: InputDecoration(
+                      hintText: 'Search products...',
+                      prefixIcon: const Icon(Icons.search, color: Colors.grey),
+                      suffixIcon: _searchController.text.isNotEmpty
+                          ? IconButton(
+                        icon: const Icon(Icons.clear, color: Colors.grey),
+                        onPressed: () {
+                          _searchController.clear();
+                          setState(() {
+                            _searchQuery = null;
+                          });
+                          _fetchProducts(reset: true);
+                        },
+                      )
+                          : null,
+                      border: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(12.0),
+                        borderSide: BorderSide.none,
+                      ),
+                      filled: true,
+                      fillColor: Colors.white,
+                      contentPadding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 14.0),
+                    ),
+                  ),
                 ),
               ),
-            ),
+
+              // Product List
+              Expanded(
+                child: _products.isEmpty && _isLoading
+                    ? const Center(child: CircularProgressIndicator())
+                    : _products.isEmpty
+                    ? Center(child: Text(_hasError ? "❌ Error loading products" : "No products found."))
+                    : ListView.builder(
+                  controller: _scrollController,
+                  padding: const EdgeInsets.only(bottom: 16),
+                  itemCount: _products.length + (_isLoading ? 1 : 0),
+                  itemBuilder: (context, index) {
+                    if (index == _products.length) {
+                      return const Center(child: CircularProgressIndicator());
+                    }
+                    final product = _products[index];
+                    return ProductCard(
+                      product: ProductCardModel(
+                        imageUrl: product.default_image_url,
+                        name: product.name,
+                        brand: product.brand,
+                        quantity: _parseInt(product.quantity),
+                        amount: _parseDouble(product.sale_price),
+                      ),
+                    );
+                  },
+                ),
+              ),
+            ],
           ),
-          // Product List
-          Expanded(
-            child: _products.isEmpty && _isLoading
-                ? const Center(child: CircularProgressIndicator())
-                : _products.isEmpty
-                ? Center(child: Text(_hasError ? "❌ Error loading products" : "No products found."))
-                : ListView.builder(
-              controller: _scrollController,
-              padding: const EdgeInsets.only(bottom: 16),
-              itemCount: _products.length + (_isLoading ? 1 : 0),
-              itemBuilder: (context, index) {
-                if (index == _products.length) {
-                  return const Center(child: CircularProgressIndicator());
-                }
-                final product = _products[index];
-                return ProductCard(
-                  product: ProductCardModel(
-                    imageUrl: product.default_image_url,
-                    name: product.name,
-                    brand: product.brand,
-                    quantity: _parseInt(product.quantity),
-                    amount: _parseDouble(product.sale_price),
-                  ),
-                );
-              },
-            ),
-          ),
-        ],
+        ),
       ),
     );
   }

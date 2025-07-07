@@ -49,9 +49,7 @@ class _SegmentedControlScreenState extends State<SegmentedControlScreen> {
           ),
           Column(
             children: [
-              SizedBox(height: CustomAppBar().height + 20), // ✅ Space for AppBar
-
-              // ✅ Fixed Segmented Control
+              SizedBox(height: CustomAppBar().height + 20), //AppBar space
               Align(
                 alignment: Alignment.center,
                 child: Container(
@@ -72,9 +70,9 @@ class _SegmentedControlScreenState extends State<SegmentedControlScreen> {
                     borderRadius: BorderRadius.circular(30),
                     selectedBorderColor: Colors.transparent,
                     fillColor: AppColors.primaryColor,
-                    color: AppColors.primaryColor,
+                    color: AppColors.gradientColor1,
                     selectedColor: AppColors.whiteColor,
-                    borderWidth: 0,
+                    borderWidth: 1,
                     constraints: BoxConstraints(minWidth: 140, minHeight: 50),
                     isSelected: [selectedIndex == 0, selectedIndex == 1],
                     onPressed: (index) {

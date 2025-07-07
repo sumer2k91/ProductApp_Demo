@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:ProductDemoApp/global.dart';
 
-
 class MerchantCard extends StatelessWidget {
   final MerchantListModel merchant;
 
@@ -12,47 +11,48 @@ class MerchantCard extends StatelessWidget {
   Widget build(BuildContext context) {
     final screenWidth = MediaQuery.of(context).size.width;
 
-    return LayoutBuilder(
-      builder: (context, constraints) {
-        return Card(
-          elevation: 6,
-          margin: const EdgeInsets.symmetric(vertical: 10, horizontal: 14),
-          shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(16),
+    return Container(
+      margin: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
+      decoration: BoxDecoration(
+        gradient: const LinearGradient(
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
+          colors: [Color(0xFFFFFFFF), Color(0xFFFAD1A7)],
+        ),
+        borderRadius: BorderRadius.circular(16),
+        boxShadow: [
+          BoxShadow(
+            color: Colors.orangeAccent.withOpacity(0.3),
+            offset: const Offset(0, 4),
+            blurRadius: 8,
           ),
-          color: AppColors.whiteColor,
-          child: Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 16),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                _buildRow(
-                  Icons.store,
-                  merchant.companyName ?? "",
-                  AppColors.secondaryColor,
-                  isCompany: true,
-                  screenWidth: screenWidth,
-                ),
-                _buildRow(Icons.person, merchant.name ?? "", Colors.black87,
-                    screenWidth: screenWidth),
-                _buildRow(
-                  Icons.location_on,
-                  (merchant.address ?? "").isNotEmpty
-                      ? merchant.address!
-                      : "No Address Available",
-                  Colors.grey.shade700,
-                  isAddress: true,
-                  screenWidth: screenWidth,
-                ),
-                const SizedBox(height: 12),
-                const Divider(color: Colors.grey),
-                const SizedBox(height: 10),
-                _buildActionButtons(context, screenWidth),
-              ],
+        ],
+      ),
+      child: Padding(
+        padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 16),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            _buildRow(Icons.store, merchant.companyName ?? "", AppColors.primaryColor,
+                isCompany: true, screenWidth: screenWidth),
+            _buildRow(Icons.person, merchant.name ?? "", Colors.black87,
+                screenWidth: screenWidth),
+            _buildRow(
+              Icons.location_on,
+              (merchant.address ?? "").isNotEmpty
+                  ? merchant.address!
+                  : "No Address Available",
+              Colors.grey.shade700,
+              isAddress: true,
+              screenWidth: screenWidth,
             ),
-          ),
-        );
-      },
+            const SizedBox(height: 12),
+            const Divider(color: Colors.grey),
+            const SizedBox(height: 10),
+            _buildActionButtons(context, screenWidth),
+          ],
+        ),
+      ),
     );
   }
 
@@ -77,10 +77,8 @@ class MerchantCard extends StatelessWidget {
               text,
               style: TextStyle(
                 fontSize: isCompany ? screenWidth * 0.045 : screenWidth * 0.038,
-                fontWeight:
-                isCompany ? FontWeight.w700 : FontWeight.w500,
+                fontWeight: isCompany ? FontWeight.w700 : FontWeight.w500,
                 color: color,
-                letterSpacing: isCompany ? 0.2 : 0.1,
               ),
               maxLines: isAddress ? 3 : 1,
               overflow: TextOverflow.ellipsis,
@@ -95,38 +93,38 @@ class MerchantCard extends StatelessWidget {
     return Wrap(
       spacing: 12,
       runSpacing: 8,
-      alignment: WrapAlignment.spaceBetween,
+      alignment: WrapAlignment.start,
       children: [
         ElevatedButton.icon(
           onPressed: () => _openGoogleMaps(context),
-          icon: Icon(Icons.map, color: AppColors.primaryColor, size: screenWidth * 0.05),
+          icon: Icon(Icons.map, color: AppColors.blackColor, size: screenWidth * 0.05),
           label: const Text("Google Map"),
           style: ElevatedButton.styleFrom(
-            backgroundColor: AppColors.whiteColor,
-            foregroundColor: AppColors.primaryColor,
+            backgroundColor: Colors.white,
+            foregroundColor: AppColors.blackColor,
             textStyle: TextStyle(
               fontWeight: FontWeight.w600,
               fontSize: screenWidth * 0.036,
             ),
             shape: RoundedRectangleBorder(
-              side: const BorderSide(color: AppColors.primaryColor, width: 1),
+              side: const BorderSide(color: AppColors.blackColor, width: 1),
               borderRadius: BorderRadius.circular(20),
             ),
           ),
         ),
         ElevatedButton.icon(
           onPressed: () => _makePhoneCall(context),
-          icon: Icon(Icons.phone, color: AppColors.primaryColor, size: screenWidth * 0.05),
+          icon: Icon(Icons.phone, color: AppColors.blackColor, size: screenWidth * 0.05),
           label: Text(
             merchant.mobile ?? '',
             style: TextStyle(fontSize: screenWidth * 0.036),
           ),
           style: ElevatedButton.styleFrom(
-            backgroundColor: AppColors.whiteColor,
-            foregroundColor: AppColors.primaryColor,
+            backgroundColor: Colors.white,
+            foregroundColor: AppColors.blackColor,
             textStyle: TextStyle(fontWeight: FontWeight.w600),
             shape: RoundedRectangleBorder(
-              side: const BorderSide(color: AppColors.primaryColor, width: 1),
+              side: const BorderSide(color: AppColors.blackColor, width: 1),
               borderRadius: BorderRadius.circular(20),
             ),
           ),

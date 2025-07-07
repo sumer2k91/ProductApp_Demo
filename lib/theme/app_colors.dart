@@ -13,4 +13,7 @@ class AppColors {
   static const Color whiteColor = Colors.white;
   static const Color greyColor = Colors.grey;
   static const Color backGroundColor = Color.fromRGBO(0, 95, 158, 0.01);
+  static const Color gradientColor1 = Color(0xFFF6A965);
+  static const Color gradientColor2 = Color(0xFFE27D60);
+  static const Color blackColor = Colors.black;
 }
